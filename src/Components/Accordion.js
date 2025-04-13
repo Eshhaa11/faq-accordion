@@ -19,8 +19,8 @@ const faqData = [
     Answer: " The Cuvier’s beaked whale (over 3 hours).",
 },
 {
-    Question: "What is the only country that spans two continents?",
-    Answer: "Turkey (Europe and Asia)".at,
+    Question: "Who invented the first email system?",
+    Answer: "Ray Tomlinson, in 1971.",
 },
 {
     Question: "What is the only country that spans two continents?",
