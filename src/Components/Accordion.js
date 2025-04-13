@@ -1,77 +1,75 @@
 import { useState } from "react";
+import "./Accordion.css";
 
+// Make sure keys start with lowercase to follow JS conventions
 const faqData = [
   {
-    Question: "What is the only country that spans two continents?",
-    Answer: "Turkey (Europe and Asia).",
+    question: "What is the only country that spans two continents?",
+    answer: "Turkey (Europe and Asia).",
   },
   {
-    Question: "Which planet rains diamonds?",
-    Answer: " Saturn and Jupiter (due to immense pressure).",
+    question: "Which planet rains diamonds?",
+    answer: "Saturn and Jupiter (due to immense pressure).",
   },
   {
-    Question: "What's the smallest bone in the human body?",
-    Answer: "The stapes in the ear.",
+    question: "What's the smallest bone in the human body?",
+    answer: "The stapes in the ear.",
   },
   {
-    Question: "Which animal can hold its breath the longest underwater?",
-    Answer: " The Cuvier’s beaked whale (over 3 hours).",
+    question: "Which animal can hold its breath the longest underwater?",
+    answer: "The Cuvier’s beaked whale (over 3 hours).",
   },
   {
-    Question: "Who invented the first email system?",
-    Answer: "Ray Tomlinson, in 1971.",
+    question: "Who invented the first email system?",
+    answer: "Ray Tomlinson, in 1971.",
   },
   {
-    Question: "Which fruit has its seeds on the outside?",
-    Answer: "Strawberry.",
+    question: "Which fruit has its seeds on the outside?",
+    answer: "Strawberry.",
   },
   {
-    Question: "How many hearts does an octopus have?",
-    Answer: "Three.",
+    question: "How many hearts does an octopus have?",
+    answer: "Three.",
   },
   {
-    Question: "What was the original purpose of bubble wrap?",
-    Answer: "Wallpaper.",
+    question: "What was the original purpose of bubble wrap?",
+    answer: "Wallpaper.",
   },
   {
-    Question:
-      "Which is the only letter that doesn't appear in any U.S. state name?",
-    Answer: "Q.",
+    question: "Which is the only letter that doesn't appear in any U.S. state name?",
+    answer: "Q.",
   },
   {
-    Question: "What does the word 'robot' mean in Czech?",
-    Answer: "Forced labor or drudgery.",
+    question: "What does the word 'robot' mean in Czech?",
+    answer: "Forced labor or drudgery.",
   },
 ];
 
-function Faq () {
-    const [index, setIndex] = useState(null);
+function Accordion() {
+  const [openIndex, setOpenIndex] = useState(null);
 
-    const toggleQuestion = (index) => {
-        if (index === index) {
-            setIndex(null);
-        } else {
-            setIndex(index);
-        }
-    };
+  const toggleQuestion = (index) => {
+    setOpenIndex(openIndex === index ? null : index);
+  };
 
-    return (
-        <div className="faq-cont">
-          <h2>FAQs</h2>
-          {faqData.map((item, index) => (
-            <div className="faq-item" key={index}>
-              <div
-                className="faq-question"
-                onClick={() => toggleQuestion(index)}
-              >
-                {item.question}
-              </div>
-              {openIndex === index && (
-                <div className="faq-answer">{item.answer}</div>
-              )}
-            </div>
-          ))}
+  return (
+    <div className="faq-cont">
+      <h2>FAQs</h2>
+      {faqData.map((item, index) => (
+        <div className="faq-item" key={index}>
+          <div
+            className="faq-question"
+            onClick={() => toggleQuestion(index)}
+          >
+            {item.question}
+          </div>
+          {openIndex === index && (
+            <div className="faq-answer">{item.answer}</div>
+          )}
         </div>
-      );
-    }
-        
+      ))}
+    </div>
+  );
+}
+
+export default Accordion;
