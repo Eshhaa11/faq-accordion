@@ -31,8 +31,8 @@ const faqData = [
     Answer: "Three.",
 },
 {
-    Question: "What is the only country that spans two continents?",
-    Answer: "Turkey (Europe and Asia)".at,
+    Question: "What was the original purpose of bubble wrap?",
+    Answer: "Wallpaper.",
 },
 {
     Question: "What is the only country that spans two continents?",
