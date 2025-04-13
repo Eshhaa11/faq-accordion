@@ -53,4 +53,7 @@ function Faq () {
         } else {
             setIndex(index);
         }
-    }
+    };
+
+    
+}
