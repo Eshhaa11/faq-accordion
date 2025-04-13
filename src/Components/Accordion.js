@@ -23,8 +23,8 @@ const faqData = [
     Answer: "Ray Tomlinson, in 1971.",
 },
 {
-    Question: "What is the only country that spans two continents?",
-    Answer: "Turkey (Europe and Asia)".at,
+    Question: "Which fruit has its seeds on the outside?",
+    Answer: "Strawberry.",
 },
 {
     Question: "What is the only country that spans two continents?",
