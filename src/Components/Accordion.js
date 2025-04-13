@@ -45,4 +45,4 @@ const faqData = [
 ];
 
 function Faq () {
-    const [openIndex, setOpenIndex] = useState(null);
+    const [Index, setIndex] = useState(null);
