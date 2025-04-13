@@ -11,12 +11,12 @@ const faqData = [
         
    },
    {
-    Question: "What’s the smallest bone in the human body?",
+    Question: "What's the smallest bone in the human body?",
     Answer: "The stapes in the ear.",
 },
 {
-    Question: "What is the only country that spans two continents?",
-    Answer: "Turkey (Europe and Asia)".at,
+    Question: "Which animal can hold its breath the longest underwater?",
+    Answer: "",
 },
 {
     Question: "What is the only country that spans two continents?",
