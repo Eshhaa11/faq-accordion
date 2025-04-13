@@ -18,8 +18,8 @@ h2 {
 .faq-item {
   background-color: #f2f5f6;
   color: #040404;
-  border: 1px solid #ddd;
   border-radius: 10px;
+  border: 1px solid #ddd;
   margin-bottom: 15px;
   padding: 15px 20px;
   box-shadow: 0 6px 12px rgba(255, 255, 255, 0.6);
@@ -31,12 +31,13 @@ h2 {
 }
 
 .faq-question {
+  font-size: 18px;
   font-weight: bold;
   cursor: pointer;
 }
 
 .faq-answer {
   margin-top: 10px;
-  color: #444;
+  color: black;
   line-height: 1.5;
 }
