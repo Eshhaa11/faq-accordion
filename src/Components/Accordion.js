@@ -59,5 +59,6 @@ function Faq () {
         <div className="faq-cont">
             <h1>FAQ</h1>
             {faqData.map((item, index) => (
+                 <div className="faq-item" key={index}>
         </div>
 }
