@@ -56,5 +56,5 @@ function Faq () {
     };
 
     return (
-        <div className="faq-container">
+        <div className="faq-cont">
 }
