@@ -16,7 +16,7 @@ const faqData = [
 },
 {
     Question: "Which animal can hold its breath the longest underwater?",
-    Answer: " The Cuvier’s beaked whale (over 3 hours)",
+    Answer: " The Cuvier’s beaked whale (over 3 hours).",
 },
 {
     Question: "What is the only country that spans two continents?",
