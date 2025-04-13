@@ -57,8 +57,21 @@ function Faq () {
 
     return (
         <div className="faq-cont">
-            <h1>FAQ</h1>
-            {faqData.map((item, index) => (
-                 <div className="faq-item" key={index}>
+          <h2>FAQs</h2>
+          {faqData.map((item, index) => (
+            <div className="faq-item" key={index}>
+              <div
+                className="faq-question"
+                onClick={() => toggleQuestion(index)}
+              >
+                {item.question}
+              </div>
+              {openIndex === index && (
+                <div className="faq-answer">{item.answer}</div>
+              )}
+            </div>
+          ))}
         </div>
-}
+      );
+    }
+        
