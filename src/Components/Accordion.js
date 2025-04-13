@@ -27,8 +27,8 @@ const faqData = [
     Answer: "Strawberry.",
 },
 {
-    Question: "What is the only country that spans two continents?",
-    Answer: "Turkey (Europe and Asia)".at,
+    Question: "How many hearts does an octopus have?",
+    Answer: "Three.",
 },
 {
     Question: "What is the only country that spans two continents?",
