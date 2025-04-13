@@ -46,3 +46,11 @@ const faqData = [
 
 function Faq () {
     const [index, setIndex] = useState(null);
+
+    const toggleQuestion = (index) => {
+        if (index === index) {
+            setIndex(null);
+        } else {
+            setIndex(index);
+        }
+    }
