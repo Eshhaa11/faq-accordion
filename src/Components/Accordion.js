@@ -39,6 +39,7 @@ const faqData = [
     Answer: "Q.",
 },
 {
-    Question: "What is the only country that spans two continents?",
-    Answer: "Turkey (Europe and Asia)".at,
+    Question: "What does the word 'robot' mean in Czech?",
+    Answer: "Forced labor or drudgery.",
 },
+];
