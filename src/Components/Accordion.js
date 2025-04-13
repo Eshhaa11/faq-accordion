@@ -35,8 +35,8 @@ const faqData = [
     Answer: "Wallpaper.",
 },
 {
-    Question: "What is the only country that spans two continents?",
-    Answer: "Turkey (Europe and Asia)".at,
+    Question: "Which is the only letter that doesn't appear in any U.S. state name?",
+    Answer: "Q.",
 },
 {
     Question: "What is the only country that spans two continents?",
