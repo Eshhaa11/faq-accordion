@@ -1,4 +1,6 @@
-# 📚 FAQ Accordion
+ ![App Screenshot](src/assets/aq.jpg)
+ 
+ # 📚 FAQ Accordion
 
 A simple **React** application that displays a list of questions and answers. Users can click on a question to expand and view the corresponding answer.
 
